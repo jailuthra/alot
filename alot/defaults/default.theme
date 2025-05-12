@@ -51,7 +51,7 @@
     [[summary]]
         even = 'default','','white','light blue','white','#006'
         odd = 'default','','white','dark blue','white','#068'
-        focus = 'standout','','white','light gray','#ff8','g58'
+        focus = 'standout','','white','light gray','g08','#ff8'
 
 [envelope]
     body = 'default','','light gray','default','light gray','default'
@@ -61,31 +61,31 @@
 [search]
     [[threadline]]
         normal = 'default','','default','default','#6d6','default'
-        focus = 'standout','','light gray','dark gray','g85','g58'
+        focus = 'standout','','light gray','dark gray','g08','#ff8'
         parts = date,mailcount,tags,authors,subject
         [[[date]]]
             normal = 'default','','default','default','default','default'
-            focus = 'standout','','yellow','light gray','yellow','g58'
+            focus = 'standout','','yellow','light gray','g08','#ff8'
             width = 'fit',10,10
             alignment = right
         [[[mailcount]]]
             normal = 'default','','light gray','default','g66','default'
-            focus = 'standout','','yellow','light gray','yellow','g58'
+            focus = 'standout','','yellow','light gray','g08','#ff8'
             width = 'fit', 5,5
         [[[tags]]]
             normal = 'bold','','dark cyan','','dark cyan',''
-            focus = 'standout','','yellow','light gray','yellow','g58'
+            focus = 'standout','','yellow','light gray','g08','#ff8'
         [[[authors]]]
             normal = 'default,underline','','light blue','default','#068','default'
-            focus = 'standout','','yellow','light gray','yellow','g58'
+            focus = 'standout','','yellow','light gray','g08','#ff8'
             width = 'fit',0,30
         [[[subject]]]
             normal = 'default','','light gray','default','g66','default'
-            focus = 'standout','','yellow','light gray','yellow','g58'
+            focus = 'standout','','yellow','light gray','g08','#ff8'
             width = 'weight', 1
         [[[content]]]
             normal = 'default','','light gray','default','dark gray','default'
-            focus = 'standout','','yellow','light gray','yellow','g58'
+            focus = 'standout','','yellow','light gray','g08','#ff8'
             width = 'weight', 1
 
     # highlight threads containing unread messages
